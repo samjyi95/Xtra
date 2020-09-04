@@ -1,0 +1,102 @@
+body {
+    background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+}
+:not(h1) {
+    text-align: center;
+}
+#container {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    border-style: solid;
+    border-color: hsl(217, 16%, 45%);
+    border-radius: 5px;
+    width: 70%;
+    margin: 0 auto;
+    display: inline-flex;
+    position: relative;
+    
+}
+#title {
+    color: white;
+    margin: 0 10px;
+    padding: 0;
+    text-align: left;
+}
+h1 {
+    margin: 0;
+}
+#score {
+    color: hsl(229, 64%, 46%);
+    position: absolute;
+    right: 50px;
+    
+}
+#triangle {
+    margin: 90px auto;
+    position: relative;
+    width: 326px;
+    height: 318px;
+    padding: 30px;
+}
+#paper {
+    top: -15px;
+    left: 5px;
+    position: absolute;
+    border: 10px solid;
+    /* width: 80px;
+    height: 80px; */
+    border-radius: 60%;
+    background: #eee;
+    padding: 15px 20px;
+    border-color: hsl(230, 89%, 62%);
+}
+#rock {
+    position: absolute;
+    bottom: 45px;
+    left: 37%;
+    border: 10px solid;
+    border-radius: 60%;
+    background: #eee;
+    padding: 20px;
+    border-color: hsl(349, 71%, 52%);
+}
+#scissors {
+    position: absolute;
+    top: -15px;
+    right: 5px;
+    border: 10px solid;
+    border-radius: 60%;
+    padding: 15px 20px;
+    background: #eee;
+    border: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+    border-color: hsl(39, 89%, 49%);
+}
+
+#rulez {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 5%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: white;
+    float: right;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color:  rgb(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50% auto;  /* Could be more or less, depending on screen size */
+}
