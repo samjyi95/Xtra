@@ -24,11 +24,28 @@ body {
 h1 {
     margin: 0;
 }
+h3 {
+    margin-top: 0;
+}
 #score {
     color: hsl(229, 64%, 46%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
     position: absolute;
-    right: 50px;
-    
+    right: 20px;
+    background-color: white;
+    top: 15px;
+    padding: 10px 20px;
+    margin: 0;
+    border: black 10px;
+    border-radius: 10px;
+    height: auto;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#counter {
+    font-size: 30px;
+    color: hsl(229, 25%, 31%);
 }
 #triangle {
     margin: 90px auto;
