@@ -21,7 +21,7 @@ function gamePlay() {
     //setting the clicked icon to be the DOM manipulated choice so we can set the choice to be shown
     var chose = this.id
     var player1 = this.innerHTML
-    document.getElementById('container2').innerHTML = this.innerHTML
+    document.getElementById('container2').innerHTML = player1
     
     //I need to grab the attribute and set the attribute as the new gameboard within this function 
     //var choice = chose.
