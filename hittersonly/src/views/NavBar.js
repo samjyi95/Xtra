@@ -13,6 +13,9 @@ function NavBar(){
             <li>
                 <Link to="/recap">Game Recap</Link>
             </li>
+            <li>
+                <Link to="/login">Login & Signup</Link>
+            </li>
         </ul>
     )
 }
