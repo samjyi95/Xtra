@@ -15,6 +15,7 @@ function App() {
 
     useEffect(() => {
         FirebaseConfig.auth().onAuthStateChanged(setCurrentUser)
+        console.log(currentUser)
     }, [])
 
   return <div className="App">

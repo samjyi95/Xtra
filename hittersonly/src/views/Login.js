@@ -16,6 +16,7 @@ const Login = (props) => {
     }
 
     if(props.currentUser){
+        console.log(props.currentUser)
         return <Redirect to='/' />
     }
 
